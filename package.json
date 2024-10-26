@@ -1,0 +1,50 @@
+{
+  "name": "devjobs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "seed": "node scripts/seed.js"
+  },
+  "dependencies": {
+    "@clerk/nextjs": "^6.0.2",
+    "@hookform/resolvers": "^3.9.0",
+    "@prisma/client": "^5.21.1",
+    "@radix-ui/react-label": "^2.1.0",
+    "@radix-ui/react-slot": "^1.1.0",
+    "@vercel/blob": "^0.25.1",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "date-fns": "^4.1.0",
+    "lucide-react": "^0.453.0",
+    "markdown-draft-js": "^2.4.0",
+    "nanoid": "^5.0.7",
+    "next": "15.0.1",
+    "prisma": "^5.21.1",
+    "react": "19.0.0-rc-69d4b800-20241021",
+    "react-dom": "19.0.0-rc-69d4b800-20241021",
+    "react-draft-wysiwyg": "^1.15.0",
+    "react-hook-form": "^7.53.1",
+    "react-markdown": "^9.0.1",
+    "sqlite3": "^5.1.7",
+    "tailwind-merge": "^2.5.4",
+    "tailwindcss-animate": "^1.0.7",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/markdown-draft-js": "^2.2.7",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/react-draft-wysiwyg": "^1.13.8",
+    "eslint-config-prettier": "^9.1.0",
+    "postcss": "^8",
+    "prettier": "^3.3.3",
+    "prettier-plugin-tailwindcss": "^0.6.8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
